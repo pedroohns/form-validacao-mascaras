@@ -6,3 +6,6 @@ const email = document.getElementById('email');
 const telefone = document.getElementById('telefone');
 const cpf = document.getElementById('cpf');
 
+form.addEventListener("submit", e => {
+    e.preventDefault(); // impede que o form seja enviado automaticamente 
+});
